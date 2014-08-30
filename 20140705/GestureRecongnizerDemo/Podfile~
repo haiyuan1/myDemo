@@ -1,0 +1,12 @@
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+pod "JSONKit"
+pod "MBProgressHUD"
+pod "Nimbus/Core"
+pod "Reachability"
+pod "FXBlurView"
+pod "XMLDictionary"
+pod "FMDB"
+pod "ODRefreshControl"
+pod "RNFrostedSidebar", "~> 0.1"
+pod "RegexKitLite", "~> 4.0"

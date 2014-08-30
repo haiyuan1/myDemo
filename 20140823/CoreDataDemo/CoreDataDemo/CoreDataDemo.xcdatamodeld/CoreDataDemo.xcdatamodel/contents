@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Grades" representedClassName="Grades" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="rel_student" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Student" inverseName="rel_grades" inverseEntity="Student" syncable="YES"/>
+        <relationship name="rel_teacher" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Teacher" inverseName="rel_grades" inverseEntity="Teacher" syncable="YES"/>
+    </entity>
+    <entity name="Student" representedClassName="Student" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="rel_grades" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Grades" inverseName="rel_student" inverseEntity="Grades" syncable="YES"/>
+        <relationship name="rel_teacher" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Teacher" inverseName="rel_student" inverseEntity="Teacher" syncable="YES"/>
+    </entity>
+    <entity name="Teacher" representedClassName="Teacher" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="number" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="rel_grades" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Grades" inverseName="rel_teacher" inverseEntity="Grades" syncable="YES"/>
+        <relationship name="rel_student" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Student" inverseName="rel_teacher" inverseEntity="Student" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Grades" positionX="-468" positionY="-18" width="128" height="88"/>
+        <element name="Student" positionX="-270" positionY="-328" width="128" height="103"/>
+        <element name="Teacher" positionX="-56" positionY="-54" width="83" height="103"/>
+    </elements>
+</model>

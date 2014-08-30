@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC157A3719738562001E0837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC157A3619738562001E0837 /* Foundation.framework */; };
+		CC157A3919738562001E0837 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC157A3819738562001E0837 /* CoreGraphics.framework */; };
+		CC157A3B19738562001E0837 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC157A3A19738562001E0837 /* UIKit.framework */; };
+		CC157A4119738562001E0837 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC157A3F19738562001E0837 /* InfoPlist.strings */; };
+		CC157A4319738562001E0837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC157A4219738562001E0837 /* main.m */; };
+		CC157A4719738562001E0837 /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC157A4619738562001E0837 /* QYAppDelegate.m */; };
+		CC157A4A19738562001E0837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC157A4819738562001E0837 /* Main.storyboard */; };
+		CC157A4D19738562001E0837 /* QYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC157A4C19738562001E0837 /* QYViewController.m */; };
+		CC157A4F19738562001E0837 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC157A4E19738562001E0837 /* Images.xcassets */; };
+		CC157A5619738562001E0837 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC157A5519738562001E0837 /* XCTest.framework */; };
+		CC157A5719738562001E0837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC157A3619738562001E0837 /* Foundation.framework */; };
+		CC157A5819738562001E0837 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC157A3A19738562001E0837 /* UIKit.framework */; };
+		CC157A6019738562001E0837 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC157A5E19738562001E0837 /* InfoPlist.strings */; };
+		CC157A6219738562001E0837 /* HYXMLParserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC157A6119738562001E0837 /* HYXMLParserDemoTests.m */; };
+		CC157A6D19738588001E0837 /* QYBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CC157A6C19738588001E0837 /* QYBook.m */; };
+		CC157A6F197385DF001E0837 /* bookstore.xml in Resources */ = {isa = PBXBuildFile; fileRef = CC157A6E197385DF001E0837 /* bookstore.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC157A5919738562001E0837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC157A2B19738562001E0837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC157A3219738562001E0837;
+			remoteInfo = HYXMLParserDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC157A3319738562001E0837 /* HYXMLParserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYXMLParserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC157A3619738562001E0837 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC157A3819738562001E0837 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC157A3A19738562001E0837 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC157A3E19738562001E0837 /* HYXMLParserDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HYXMLParserDemo-Info.plist"; sourceTree = "<group>"; };
+		CC157A4019738562001E0837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC157A4219738562001E0837 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC157A4419738562001E0837 /* HYXMLParserDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HYXMLParserDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CC157A4519738562001E0837 /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
+		CC157A4619738562001E0837 /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
+		CC157A4919738562001E0837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC157A4B19738562001E0837 /* QYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYViewController.h; sourceTree = "<group>"; };
+		CC157A4C19738562001E0837 /* QYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYViewController.m; sourceTree = "<group>"; };
+		CC157A4E19738562001E0837 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CC157A5419738562001E0837 /* HYXMLParserDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYXMLParserDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC157A5519738562001E0837 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC157A5D19738562001E0837 /* HYXMLParserDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HYXMLParserDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CC157A5F19738562001E0837 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC157A6119738562001E0837 /* HYXMLParserDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYXMLParserDemoTests.m; sourceTree = "<group>"; };
+		CC157A6B19738588001E0837 /* QYBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYBook.h; sourceTree = "<group>"; };
+		CC157A6C19738588001E0837 /* QYBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYBook.m; sourceTree = "<group>"; };
+		CC157A6E197385DF001E0837 /* bookstore.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = bookstore.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC157A3019738562001E0837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC157A3919738562001E0837 /* CoreGraphics.framework in Frameworks */,
+				CC157A3B19738562001E0837 /* UIKit.framework in Frameworks */,
+				CC157A3719738562001E0837 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC157A5119738562001E0837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC157A5619738562001E0837 /* XCTest.framework in Frameworks */,
+				CC157A5819738562001E0837 /* UIKit.framework in Frameworks */,
+				CC157A5719738562001E0837 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC157A2A19738562001E0837 = {
+			isa = PBXGroup;
+			children = (
+				CC157A3C19738562001E0837 /* HYXMLParserDemo */,
+				CC157A5B19738562001E0837 /* HYXMLParserDemoTests */,
+				CC157A3519738562001E0837 /* Frameworks */,
+				CC157A3419738562001E0837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC157A3419738562001E0837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC157A3319738562001E0837 /* HYXMLParserDemo.app */,
+				CC157A5419738562001E0837 /* HYXMLParserDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC157A3519738562001E0837 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC157A3619738562001E0837 /* Foundation.framework */,
+				CC157A3819738562001E0837 /* CoreGraphics.framework */,
+				CC157A3A19738562001E0837 /* UIKit.framework */,
+				CC157A5519738562001E0837 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC157A3C19738562001E0837 /* HYXMLParserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CC157A4519738562001E0837 /* QYAppDelegate.h */,
+				CC157A4619738562001E0837 /* QYAppDelegate.m */,
+				CC157A4819738562001E0837 /* Main.storyboard */,
+				CC157A4B19738562001E0837 /* QYViewController.h */,
+				CC157A4C19738562001E0837 /* QYViewController.m */,
+				CC157A6B19738588001E0837 /* QYBook.h */,
+				CC157A6C19738588001E0837 /* QYBook.m */,
+				CC157A6E197385DF001E0837 /* bookstore.xml */,
+				CC157A4E19738562001E0837 /* Images.xcassets */,
+				CC157A3D19738562001E0837 /* Supporting Files */,
+			);
+			path = HYXMLParserDemo;
+			sourceTree = "<group>";
+		};
+		CC157A3D19738562001E0837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC157A3E19738562001E0837 /* HYXMLParserDemo-Info.plist */,
+				CC157A3F19738562001E0837 /* InfoPlist.strings */,
+				CC157A4219738562001E0837 /* main.m */,
+				CC157A4419738562001E0837 /* HYXMLParserDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC157A5B19738562001E0837 /* HYXMLParserDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC157A6119738562001E0837 /* HYXMLParserDemoTests.m */,
+				CC157A5C19738562001E0837 /* Supporting Files */,
+			);
+			path = HYXMLParserDemoTests;
+			sourceTree = "<group>";
+		};
+		CC157A5C19738562001E0837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC157A5D19738562001E0837 /* HYXMLParserDemoTests-Info.plist */,
+				CC157A5E19738562001E0837 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC157A3219738562001E0837 /* HYXMLParserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC157A6519738562001E0837 /* Build configuration list for PBXNativeTarget "HYXMLParserDemo" */;
+			buildPhases = (
+				CC157A2F19738562001E0837 /* Sources */,
+				CC157A3019738562001E0837 /* Frameworks */,
+				CC157A3119738562001E0837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYXMLParserDemo;
+			productName = HYXMLParserDemo;
+			productReference = CC157A3319738562001E0837 /* HYXMLParserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC157A5319738562001E0837 /* HYXMLParserDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC157A6819738562001E0837 /* Build configuration list for PBXNativeTarget "HYXMLParserDemoTests" */;
+			buildPhases = (
+				CC157A5019738562001E0837 /* Sources */,
+				CC157A5119738562001E0837 /* Frameworks */,
+				CC157A5219738562001E0837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC157A5A19738562001E0837 /* PBXTargetDependency */,
+			);
+			name = HYXMLParserDemoTests;
+			productName = HYXMLParserDemoTests;
+			productReference = CC157A5419738562001E0837 /* HYXMLParserDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC157A2B19738562001E0837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CC157A5319738562001E0837 = {
+						TestTargetID = CC157A3219738562001E0837;
+					};
+				};
+			};
+			buildConfigurationList = CC157A2E19738562001E0837 /* Build configuration list for PBXProject "HYXMLParserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC157A2A19738562001E0837;
+			productRefGroup = CC157A3419738562001E0837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC157A3219738562001E0837 /* HYXMLParserDemo */,
+				CC157A5319738562001E0837 /* HYXMLParserDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC157A3119738562001E0837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC157A6F197385DF001E0837 /* bookstore.xml in Resources */,
+				CC157A4F19738562001E0837 /* Images.xcassets in Resources */,
+				CC157A4119738562001E0837 /* InfoPlist.strings in Resources */,
+				CC157A4A19738562001E0837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC157A5219738562001E0837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC157A6019738562001E0837 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC157A2F19738562001E0837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC157A6D19738588001E0837 /* QYBook.m in Sources */,
+				CC157A4719738562001E0837 /* QYAppDelegate.m in Sources */,
+				CC157A4319738562001E0837 /* main.m in Sources */,
+				CC157A4D19738562001E0837 /* QYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC157A5019738562001E0837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC157A6219738562001E0837 /* HYXMLParserDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC157A5A19738562001E0837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC157A3219738562001E0837 /* HYXMLParserDemo */;
+			targetProxy = CC157A5919738562001E0837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC157A3F19738562001E0837 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC157A4019738562001E0837 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CC157A4819738562001E0837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC157A4919738562001E0837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC157A5E19738562001E0837 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC157A5F19738562001E0837 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC157A6319738562001E0837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC157A6419738562001E0837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC157A6619738562001E0837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HYXMLParserDemo/HYXMLParserDemo-Prefix.pch";
+				INFOPLIST_FILE = "HYXMLParserDemo/HYXMLParserDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC157A6719738562001E0837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HYXMLParserDemo/HYXMLParserDemo-Prefix.pch";
+				INFOPLIST_FILE = "HYXMLParserDemo/HYXMLParserDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CC157A6919738562001E0837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HYXMLParserDemo.app/HYXMLParserDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HYXMLParserDemo/HYXMLParserDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HYXMLParserDemoTests/HYXMLParserDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CC157A6A19738562001E0837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HYXMLParserDemo.app/HYXMLParserDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HYXMLParserDemo/HYXMLParserDemo-Prefix.pch";
+				INFOPLIST_FILE = "HYXMLParserDemoTests/HYXMLParserDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC157A2E19738562001E0837 /* Build configuration list for PBXProject "HYXMLParserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC157A6319738562001E0837 /* Debug */,
+				CC157A6419738562001E0837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC157A6519738562001E0837 /* Build configuration list for PBXNativeTarget "HYXMLParserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC157A6619738562001E0837 /* Debug */,
+				CC157A6719738562001E0837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC157A6819738562001E0837 /* Build configuration list for PBXNativeTarget "HYXMLParserDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC157A6919738562001E0837 /* Debug */,
+				CC157A6A19738562001E0837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC157A2B19738562001E0837 /* Project object */;
+}

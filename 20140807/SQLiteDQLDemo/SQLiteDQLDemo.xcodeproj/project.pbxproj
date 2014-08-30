@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCE6EE291993785B00D46B80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6EE281993785B00D46B80 /* Foundation.framework */; };
+		CCE6EE2B1993785B00D46B80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6EE2A1993785B00D46B80 /* CoreGraphics.framework */; };
+		CCE6EE2D1993785B00D46B80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6EE2C1993785B00D46B80 /* UIKit.framework */; };
+		CCE6EE331993785B00D46B80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCE6EE311993785B00D46B80 /* InfoPlist.strings */; };
+		CCE6EE351993785B00D46B80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE6EE341993785B00D46B80 /* main.m */; };
+		CCE6EE391993785B00D46B80 /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE6EE381993785B00D46B80 /* QYAppDelegate.m */; };
+		CCE6EE3C1993785B00D46B80 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE6EE3A1993785B00D46B80 /* Main_iPhone.storyboard */; };
+		CCE6EE3F1993785B00D46B80 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE6EE3D1993785B00D46B80 /* Main_iPad.storyboard */; };
+		CCE6EE421993785B00D46B80 /* QYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE6EE411993785B00D46B80 /* QYViewController.m */; };
+		CCE6EE441993785B00D46B80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE6EE431993785B00D46B80 /* Images.xcassets */; };
+		CCE6EE4B1993785B00D46B80 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6EE4A1993785B00D46B80 /* XCTest.framework */; };
+		CCE6EE4C1993785B00D46B80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6EE281993785B00D46B80 /* Foundation.framework */; };
+		CCE6EE4D1993785B00D46B80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6EE2C1993785B00D46B80 /* UIKit.framework */; };
+		CCE6EE551993785B00D46B80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCE6EE531993785B00D46B80 /* InfoPlist.strings */; };
+		CCE6EE571993785B00D46B80 /* SQLiteDQLDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE6EE561993785B00D46B80 /* SQLiteDQLDemoTests.m */; };
+		CCE6EE61199378C700D46B80 /* qingyuntest.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CCE6EE60199378C700D46B80 /* qingyuntest.sqlite */; };
+		CCE6EE63199378E600D46B80 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6EE62199378E600D46B80 /* libsqlite3.dylib */; };
+		CCE6EE6619938ECB00D46B80 /* QYEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE6EE6519938ECB00D46B80 /* QYEmployee.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCE6EE4E1993785B00D46B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCE6EE1D1993785B00D46B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCE6EE241993785B00D46B80;
+			remoteInfo = SQLiteDQLDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCE6EE251993785B00D46B80 /* SQLiteDQLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteDQLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE6EE281993785B00D46B80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCE6EE2A1993785B00D46B80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCE6EE2C1993785B00D46B80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCE6EE301993785B00D46B80 /* SQLiteDQLDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLiteDQLDemo-Info.plist"; sourceTree = "<group>"; };
+		CCE6EE321993785B00D46B80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCE6EE341993785B00D46B80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCE6EE361993785B00D46B80 /* SQLiteDQLDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLiteDQLDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CCE6EE371993785B00D46B80 /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
+		CCE6EE381993785B00D46B80 /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
+		CCE6EE3B1993785B00D46B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CCE6EE3E1993785B00D46B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CCE6EE401993785B00D46B80 /* QYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYViewController.h; sourceTree = "<group>"; };
+		CCE6EE411993785B00D46B80 /* QYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYViewController.m; sourceTree = "<group>"; };
+		CCE6EE431993785B00D46B80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCE6EE491993785B00D46B80 /* SQLiteDQLDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLiteDQLDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE6EE4A1993785B00D46B80 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCE6EE521993785B00D46B80 /* SQLiteDQLDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLiteDQLDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CCE6EE541993785B00D46B80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCE6EE561993785B00D46B80 /* SQLiteDQLDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLiteDQLDemoTests.m; sourceTree = "<group>"; };
+		CCE6EE60199378C700D46B80 /* qingyuntest.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = qingyuntest.sqlite; sourceTree = "<group>"; };
+		CCE6EE62199378E600D46B80 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CCE6EE6419938ECB00D46B80 /* QYEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYEmployee.h; sourceTree = "<group>"; };
+		CCE6EE6519938ECB00D46B80 /* QYEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYEmployee.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCE6EE221993785B00D46B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6EE63199378E600D46B80 /* libsqlite3.dylib in Frameworks */,
+				CCE6EE2B1993785B00D46B80 /* CoreGraphics.framework in Frameworks */,
+				CCE6EE2D1993785B00D46B80 /* UIKit.framework in Frameworks */,
+				CCE6EE291993785B00D46B80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE6EE461993785B00D46B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6EE4B1993785B00D46B80 /* XCTest.framework in Frameworks */,
+				CCE6EE4D1993785B00D46B80 /* UIKit.framework in Frameworks */,
+				CCE6EE4C1993785B00D46B80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCE6EE1C1993785B00D46B80 = {
+			isa = PBXGroup;
+			children = (
+				CCE6EE2E1993785B00D46B80 /* SQLiteDQLDemo */,
+				CCE6EE501993785B00D46B80 /* SQLiteDQLDemoTests */,
+				CCE6EE271993785B00D46B80 /* Frameworks */,
+				CCE6EE261993785B00D46B80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCE6EE261993785B00D46B80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6EE251993785B00D46B80 /* SQLiteDQLDemo.app */,
+				CCE6EE491993785B00D46B80 /* SQLiteDQLDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCE6EE271993785B00D46B80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6EE62199378E600D46B80 /* libsqlite3.dylib */,
+				CCE6EE281993785B00D46B80 /* Foundation.framework */,
+				CCE6EE2A1993785B00D46B80 /* CoreGraphics.framework */,
+				CCE6EE2C1993785B00D46B80 /* UIKit.framework */,
+				CCE6EE4A1993785B00D46B80 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCE6EE2E1993785B00D46B80 /* SQLiteDQLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6EE371993785B00D46B80 /* QYAppDelegate.h */,
+				CCE6EE381993785B00D46B80 /* QYAppDelegate.m */,
+				CCE6EE3A1993785B00D46B80 /* Main_iPhone.storyboard */,
+				CCE6EE3D1993785B00D46B80 /* Main_iPad.storyboard */,
+				CCE6EE401993785B00D46B80 /* QYViewController.h */,
+				CCE6EE411993785B00D46B80 /* QYViewController.m */,
+				CCE6EE6419938ECB00D46B80 /* QYEmployee.h */,
+				CCE6EE6519938ECB00D46B80 /* QYEmployee.m */,
+				CCE6EE431993785B00D46B80 /* Images.xcassets */,
+				CCE6EE2F1993785B00D46B80 /* Supporting Files */,
+			);
+			path = SQLiteDQLDemo;
+			sourceTree = "<group>";
+		};
+		CCE6EE2F1993785B00D46B80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6EE60199378C700D46B80 /* qingyuntest.sqlite */,
+				CCE6EE301993785B00D46B80 /* SQLiteDQLDemo-Info.plist */,
+				CCE6EE311993785B00D46B80 /* InfoPlist.strings */,
+				CCE6EE341993785B00D46B80 /* main.m */,
+				CCE6EE361993785B00D46B80 /* SQLiteDQLDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCE6EE501993785B00D46B80 /* SQLiteDQLDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6EE561993785B00D46B80 /* SQLiteDQLDemoTests.m */,
+				CCE6EE511993785B00D46B80 /* Supporting Files */,
+			);
+			path = SQLiteDQLDemoTests;
+			sourceTree = "<group>";
+		};
+		CCE6EE511993785B00D46B80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6EE521993785B00D46B80 /* SQLiteDQLDemoTests-Info.plist */,
+				CCE6EE531993785B00D46B80 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCE6EE241993785B00D46B80 /* SQLiteDQLDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE6EE5A1993785B00D46B80 /* Build configuration list for PBXNativeTarget "SQLiteDQLDemo" */;
+			buildPhases = (
+				CCE6EE211993785B00D46B80 /* Sources */,
+				CCE6EE221993785B00D46B80 /* Frameworks */,
+				CCE6EE231993785B00D46B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLiteDQLDemo;
+			productName = SQLiteDQLDemo;
+			productReference = CCE6EE251993785B00D46B80 /* SQLiteDQLDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCE6EE481993785B00D46B80 /* SQLiteDQLDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE6EE5D1993785B00D46B80 /* Build configuration list for PBXNativeTarget "SQLiteDQLDemoTests" */;
+			buildPhases = (
+				CCE6EE451993785B00D46B80 /* Sources */,
+				CCE6EE461993785B00D46B80 /* Frameworks */,
+				CCE6EE471993785B00D46B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCE6EE4F1993785B00D46B80 /* PBXTargetDependency */,
+			);
+			name = SQLiteDQLDemoTests;
+			productName = SQLiteDQLDemoTests;
+			productReference = CCE6EE491993785B00D46B80 /* SQLiteDQLDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCE6EE1D1993785B00D46B80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CCE6EE481993785B00D46B80 = {
+						TestTargetID = CCE6EE241993785B00D46B80;
+					};
+				};
+			};
+			buildConfigurationList = CCE6EE201993785B00D46B80 /* Build configuration list for PBXProject "SQLiteDQLDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCE6EE1C1993785B00D46B80;
+			productRefGroup = CCE6EE261993785B00D46B80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCE6EE241993785B00D46B80 /* SQLiteDQLDemo */,
+				CCE6EE481993785B00D46B80 /* SQLiteDQLDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCE6EE231993785B00D46B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6EE61199378C700D46B80 /* qingyuntest.sqlite in Resources */,
+				CCE6EE3F1993785B00D46B80 /* Main_iPad.storyboard in Resources */,
+				CCE6EE441993785B00D46B80 /* Images.xcassets in Resources */,
+				CCE6EE3C1993785B00D46B80 /* Main_iPhone.storyboard in Resources */,
+				CCE6EE331993785B00D46B80 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE6EE471993785B00D46B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6EE551993785B00D46B80 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCE6EE211993785B00D46B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6EE391993785B00D46B80 /* QYAppDelegate.m in Sources */,
+				CCE6EE6619938ECB00D46B80 /* QYEmployee.m in Sources */,
+				CCE6EE351993785B00D46B80 /* main.m in Sources */,
+				CCE6EE421993785B00D46B80 /* QYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE6EE451993785B00D46B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6EE571993785B00D46B80 /* SQLiteDQLDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCE6EE4F1993785B00D46B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCE6EE241993785B00D46B80 /* SQLiteDQLDemo */;
+			targetProxy = CCE6EE4E1993785B00D46B80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCE6EE311993785B00D46B80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE6EE321993785B00D46B80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCE6EE3A1993785B00D46B80 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE6EE3B1993785B00D46B80 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CCE6EE3D1993785B00D46B80 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE6EE3E1993785B00D46B80 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CCE6EE531993785B00D46B80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE6EE541993785B00D46B80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCE6EE581993785B00D46B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCE6EE591993785B00D46B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCE6EE5B1993785B00D46B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLiteDQLDemo/SQLiteDQLDemo-Prefix.pch";
+				INFOPLIST_FILE = "SQLiteDQLDemo/SQLiteDQLDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCE6EE5C1993785B00D46B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLiteDQLDemo/SQLiteDQLDemo-Prefix.pch";
+				INFOPLIST_FILE = "SQLiteDQLDemo/SQLiteDQLDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCE6EE5E1993785B00D46B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SQLiteDQLDemo.app/SQLiteDQLDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLiteDQLDemo/SQLiteDQLDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SQLiteDQLDemoTests/SQLiteDQLDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCE6EE5F1993785B00D46B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SQLiteDQLDemo.app/SQLiteDQLDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLiteDQLDemo/SQLiteDQLDemo-Prefix.pch";
+				INFOPLIST_FILE = "SQLiteDQLDemoTests/SQLiteDQLDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCE6EE201993785B00D46B80 /* Build configuration list for PBXProject "SQLiteDQLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE6EE581993785B00D46B80 /* Debug */,
+				CCE6EE591993785B00D46B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCE6EE5A1993785B00D46B80 /* Build configuration list for PBXNativeTarget "SQLiteDQLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE6EE5B1993785B00D46B80 /* Debug */,
+				CCE6EE5C1993785B00D46B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCE6EE5D1993785B00D46B80 /* Build configuration list for PBXNativeTarget "SQLiteDQLDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE6EE5E1993785B00D46B80 /* Debug */,
+				CCE6EE5F1993785B00D46B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCE6EE1D1993785B00D46B80 /* Project object */;
+}

@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCE6ED9D1993685F00D46B80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6ED9C1993685F00D46B80 /* Foundation.framework */; };
+		CCE6ED9F1993685F00D46B80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6ED9E1993685F00D46B80 /* CoreGraphics.framework */; };
+		CCE6EDA11993685F00D46B80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6EDA01993685F00D46B80 /* UIKit.framework */; };
+		CCE6EDA71993685F00D46B80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCE6EDA51993685F00D46B80 /* InfoPlist.strings */; };
+		CCE6EDA91993685F00D46B80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE6EDA81993685F00D46B80 /* main.m */; };
+		CCE6EDAD1993685F00D46B80 /* QYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE6EDAC1993685F00D46B80 /* QYAppDelegate.m */; };
+		CCE6EDB01993685F00D46B80 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE6EDAE1993685F00D46B80 /* Main_iPhone.storyboard */; };
+		CCE6EDB31993685F00D46B80 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE6EDB11993685F00D46B80 /* Main_iPad.storyboard */; };
+		CCE6EDB61993685F00D46B80 /* QYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE6EDB51993685F00D46B80 /* QYViewController.m */; };
+		CCE6EDB81993685F00D46B80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE6EDB71993685F00D46B80 /* Images.xcassets */; };
+		CCE6EDBF1993685F00D46B80 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6EDBE1993685F00D46B80 /* XCTest.framework */; };
+		CCE6EDC01993685F00D46B80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6ED9C1993685F00D46B80 /* Foundation.framework */; };
+		CCE6EDC11993685F00D46B80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6EDA01993685F00D46B80 /* UIKit.framework */; };
+		CCE6EDC91993685F00D46B80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCE6EDC71993685F00D46B80 /* InfoPlist.strings */; };
+		CCE6EDCB1993685F00D46B80 /* SQLDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE6EDCA1993685F00D46B80 /* SQLDemoTests.m */; };
+		CCE6EDD51993687C00D46B80 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE6EDD41993687C00D46B80 /* libsqlite3.dylib */; };
+		CCE6EDD7199369A300D46B80 /* qingyun.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CCE6EDD6199369A300D46B80 /* qingyun.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCE6EDC21993685F00D46B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCE6ED911993685F00D46B80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCE6ED981993685F00D46B80;
+			remoteInfo = SQLDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCE6ED991993685F00D46B80 /* SQLDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE6ED9C1993685F00D46B80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCE6ED9E1993685F00D46B80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCE6EDA01993685F00D46B80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCE6EDA41993685F00D46B80 /* SQLDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLDemo-Info.plist"; sourceTree = "<group>"; };
+		CCE6EDA61993685F00D46B80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCE6EDA81993685F00D46B80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCE6EDAA1993685F00D46B80 /* SQLDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CCE6EDAB1993685F00D46B80 /* QYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYAppDelegate.h; sourceTree = "<group>"; };
+		CCE6EDAC1993685F00D46B80 /* QYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYAppDelegate.m; sourceTree = "<group>"; };
+		CCE6EDAF1993685F00D46B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CCE6EDB21993685F00D46B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CCE6EDB41993685F00D46B80 /* QYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QYViewController.h; sourceTree = "<group>"; };
+		CCE6EDB51993685F00D46B80 /* QYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYViewController.m; sourceTree = "<group>"; };
+		CCE6EDB71993685F00D46B80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCE6EDBD1993685F00D46B80 /* SQLDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCE6EDBE1993685F00D46B80 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CCE6EDC61993685F00D46B80 /* SQLDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SQLDemoTests-Info.plist"; sourceTree = "<group>"; };
+		CCE6EDC81993685F00D46B80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCE6EDCA1993685F00D46B80 /* SQLDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLDemoTests.m; sourceTree = "<group>"; };
+		CCE6EDD41993687C00D46B80 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CCE6EDD6199369A300D46B80 /* qingyun.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = qingyun.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCE6ED961993685F00D46B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6EDD51993687C00D46B80 /* libsqlite3.dylib in Frameworks */,
+				CCE6ED9F1993685F00D46B80 /* CoreGraphics.framework in Frameworks */,
+				CCE6EDA11993685F00D46B80 /* UIKit.framework in Frameworks */,
+				CCE6ED9D1993685F00D46B80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE6EDBA1993685F00D46B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6EDBF1993685F00D46B80 /* XCTest.framework in Frameworks */,
+				CCE6EDC11993685F00D46B80 /* UIKit.framework in Frameworks */,
+				CCE6EDC01993685F00D46B80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCE6ED901993685F00D46B80 = {
+			isa = PBXGroup;
+			children = (
+				CCE6EDA21993685F00D46B80 /* SQLDemo */,
+				CCE6EDC41993685F00D46B80 /* SQLDemoTests */,
+				CCE6ED9B1993685F00D46B80 /* Frameworks */,
+				CCE6ED9A1993685F00D46B80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCE6ED9A1993685F00D46B80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6ED991993685F00D46B80 /* SQLDemo.app */,
+				CCE6EDBD1993685F00D46B80 /* SQLDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCE6ED9B1993685F00D46B80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6EDD41993687C00D46B80 /* libsqlite3.dylib */,
+				CCE6ED9C1993685F00D46B80 /* Foundation.framework */,
+				CCE6ED9E1993685F00D46B80 /* CoreGraphics.framework */,
+				CCE6EDA01993685F00D46B80 /* UIKit.framework */,
+				CCE6EDBE1993685F00D46B80 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCE6EDA21993685F00D46B80 /* SQLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6EDAB1993685F00D46B80 /* QYAppDelegate.h */,
+				CCE6EDAC1993685F00D46B80 /* QYAppDelegate.m */,
+				CCE6EDAE1993685F00D46B80 /* Main_iPhone.storyboard */,
+				CCE6EDB11993685F00D46B80 /* Main_iPad.storyboard */,
+				CCE6EDB41993685F00D46B80 /* QYViewController.h */,
+				CCE6EDB51993685F00D46B80 /* QYViewController.m */,
+				CCE6EDB71993685F00D46B80 /* Images.xcassets */,
+				CCE6EDA31993685F00D46B80 /* Supporting Files */,
+			);
+			path = SQLDemo;
+			sourceTree = "<group>";
+		};
+		CCE6EDA31993685F00D46B80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6EDD6199369A300D46B80 /* qingyun.sqlite */,
+				CCE6EDA41993685F00D46B80 /* SQLDemo-Info.plist */,
+				CCE6EDA51993685F00D46B80 /* InfoPlist.strings */,
+				CCE6EDA81993685F00D46B80 /* main.m */,
+				CCE6EDAA1993685F00D46B80 /* SQLDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCE6EDC41993685F00D46B80 /* SQLDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6EDCA1993685F00D46B80 /* SQLDemoTests.m */,
+				CCE6EDC51993685F00D46B80 /* Supporting Files */,
+			);
+			path = SQLDemoTests;
+			sourceTree = "<group>";
+		};
+		CCE6EDC51993685F00D46B80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE6EDC61993685F00D46B80 /* SQLDemoTests-Info.plist */,
+				CCE6EDC71993685F00D46B80 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCE6ED981993685F00D46B80 /* SQLDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE6EDCE1993685F00D46B80 /* Build configuration list for PBXNativeTarget "SQLDemo" */;
+			buildPhases = (
+				CCE6ED951993685F00D46B80 /* Sources */,
+				CCE6ED961993685F00D46B80 /* Frameworks */,
+				CCE6ED971993685F00D46B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLDemo;
+			productName = SQLDemo;
+			productReference = CCE6ED991993685F00D46B80 /* SQLDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCE6EDBC1993685F00D46B80 /* SQLDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCE6EDD11993685F00D46B80 /* Build configuration list for PBXNativeTarget "SQLDemoTests" */;
+			buildPhases = (
+				CCE6EDB91993685F00D46B80 /* Sources */,
+				CCE6EDBA1993685F00D46B80 /* Frameworks */,
+				CCE6EDBB1993685F00D46B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCE6EDC31993685F00D46B80 /* PBXTargetDependency */,
+			);
+			name = SQLDemoTests;
+			productName = SQLDemoTests;
+			productReference = CCE6EDBD1993685F00D46B80 /* SQLDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCE6ED911993685F00D46B80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CCE6EDBC1993685F00D46B80 = {
+						TestTargetID = CCE6ED981993685F00D46B80;
+					};
+				};
+			};
+			buildConfigurationList = CCE6ED941993685F00D46B80 /* Build configuration list for PBXProject "SQLDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCE6ED901993685F00D46B80;
+			productRefGroup = CCE6ED9A1993685F00D46B80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCE6ED981993685F00D46B80 /* SQLDemo */,
+				CCE6EDBC1993685F00D46B80 /* SQLDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCE6ED971993685F00D46B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6EDB31993685F00D46B80 /* Main_iPad.storyboard in Resources */,
+				CCE6EDB81993685F00D46B80 /* Images.xcassets in Resources */,
+				CCE6EDD7199369A300D46B80 /* qingyun.sqlite in Resources */,
+				CCE6EDB01993685F00D46B80 /* Main_iPhone.storyboard in Resources */,
+				CCE6EDA71993685F00D46B80 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE6EDBB1993685F00D46B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6EDC91993685F00D46B80 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCE6ED951993685F00D46B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6EDAD1993685F00D46B80 /* QYAppDelegate.m in Sources */,
+				CCE6EDA91993685F00D46B80 /* main.m in Sources */,
+				CCE6EDB61993685F00D46B80 /* QYViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCE6EDB91993685F00D46B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE6EDCB1993685F00D46B80 /* SQLDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCE6EDC31993685F00D46B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCE6ED981993685F00D46B80 /* SQLDemo */;
+			targetProxy = CCE6EDC21993685F00D46B80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCE6EDA51993685F00D46B80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE6EDA61993685F00D46B80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCE6EDAE1993685F00D46B80 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE6EDAF1993685F00D46B80 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CCE6EDB11993685F00D46B80 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE6EDB21993685F00D46B80 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CCE6EDC71993685F00D46B80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCE6EDC81993685F00D46B80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCE6EDCC1993685F00D46B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCE6EDCD1993685F00D46B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCE6EDCF1993685F00D46B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLDemo/SQLDemo-Prefix.pch";
+				INFOPLIST_FILE = "SQLDemo/SQLDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCE6EDD01993685F00D46B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLDemo/SQLDemo-Prefix.pch";
+				INFOPLIST_FILE = "SQLDemo/SQLDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CCE6EDD21993685F00D46B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SQLDemo.app/SQLDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLDemo/SQLDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SQLDemoTests/SQLDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CCE6EDD31993685F00D46B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SQLDemo.app/SQLDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SQLDemo/SQLDemo-Prefix.pch";
+				INFOPLIST_FILE = "SQLDemoTests/SQLDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCE6ED941993685F00D46B80 /* Build configuration list for PBXProject "SQLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE6EDCC1993685F00D46B80 /* Debug */,
+				CCE6EDCD1993685F00D46B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCE6EDCE1993685F00D46B80 /* Build configuration list for PBXNativeTarget "SQLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE6EDCF1993685F00D46B80 /* Debug */,
+				CCE6EDD01993685F00D46B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCE6EDD11993685F00D46B80 /* Build configuration list for PBXNativeTarget "SQLDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCE6EDD21993685F00D46B80 /* Debug */,
+				CCE6EDD31993685F00D46B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCE6ED911993685F00D46B80 /* Project object */;
+}
